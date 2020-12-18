@@ -7,9 +7,8 @@ public class Runner {
 		Numbers n = new Numbers();
 //		System.out.println(n.sumDigits(74));
 //		System.out.println(n.sumDig(100));
-//		System.out.println(n.task2(99));
-		System.out.println(n.arrayNum2Word(20));
-		
+		System.out.println(n.task2(99));
+//		System.out.println(n.arrayNum2Word(20));
 		
 		
 //		System.out.println(n.arrayVs(4567));
@@ -24,6 +23,7 @@ public class Runner {
 		
 //		Coins x = new Coins();
 //		x.change(4.58, 20);
+//		Coins.change();
 		
 	}
 	

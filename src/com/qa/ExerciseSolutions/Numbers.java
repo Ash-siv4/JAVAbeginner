@@ -5,15 +5,15 @@ public class Numbers {
 	// without string
 	public int sumDig(int n) {
 		int val = 0;
-		while (n >= 10 && n <= 99) {
-			n = n - 10;
-			val++;
+		while (n >= 10 && n <= 99) {//11
+			n = n - 10;//1
+			val++;//1
 		}
 		while (n >= 1 && n <= 9) {
-			n = n - 1;
-			val++;
+			n = n - 1;//0
+			val++;//1+1
 		}
-		return val;
+		return val;//2
 	}
 
 	// string method
@@ -54,12 +54,12 @@ public class Numbers {
 		String retstring = "";
 
 		while (num >= 10) {
-			num -= 10;
-			tens++;
+			num -= 10;//10
+			tens++;//1,2
 		}
 		while (num >= 1) {
 			num -= 1;
-			ones++;
+			ones++;//1
 		}
 		String special = special(tens, ones);
 		if (special == "") {
